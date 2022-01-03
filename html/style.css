@@ -1,0 +1,25 @@
+#header{
+    background: blue;
+    padding: 2px;
+}
+#header ul > li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;
+}
+#header li > a{
+	color: white;
+	text-decoration: none;
+	padding: 8px;
+	}
+#content{
+	background: #EBEBEB;
+    min-height: 450px;
+    padding: 10px;
+}
+#footer{
+    background: blue;
+    padding: 5px;
+    color: white;
+    text-align: center;
+  }
