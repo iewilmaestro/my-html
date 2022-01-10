@@ -4,7 +4,6 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="surfe.pro" content="02f88cb55a1bd19b4db73b5284b46588">
 	<meta charset="utf-8">
 	<title>iewil | Dashboard</title>
 	<link rel="stylesheet" href="style.css">
