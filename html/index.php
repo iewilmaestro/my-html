@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,19 +9,26 @@ session_start();
 <body>
 	<div id="header">
 		<ul>
-			<li style="color: white;font-size: 25px;font-weight: bold"><marquee direction="right">watch the video below to get the key</marquee>Menu &raquo;</li>
+			<li style="color: white;font-size: 25px;font-weight: bold"><marquee direction="right">Welcome to Iewil Website</marquee>Menu &raquo;</li>
 			<li><a href="">Dashboard</a></li>
-			<li><a href="List/list.php">List</a></li>
+			<li><a href="List">List</a></li>
+			<li><a href="High">High Reward</a></li>
 			<li><a href="About/">About</a></li>
 		</ul>
 	</div>
-
 	<div id="content">
-	    <br>
+	    
+	    <!-- Iklan -->
+	    <a href="https://www.coinpayu.com/?r=iewilmaestro"><img title="Join coinpayu to earn!" alt="coinpayu" src="https://www.coinpayu.com/static/earners_banner/468X60.gif" align="top"></a>
+	    <a target="_blank" href="https://cryptowin.io/ref/iewilmaestro"><img src="https://cryptowin.io/banners/468x60.png" width="468" height="60" align="top"></a><br>
+	    
 			<!-- 1. The <iframe> (and video player) -->
 			<div id="player"></div>
+			<!-- Iklan -->
+			<a target="_blank" href="https://faucetpay.io/?r=1667280"><img src="http://iewil.my.id/gambar/fp.gif" width="295" height="405"></a>
 			<!-- The Play-Link will appear in that div -->
 			<div id="play"></div>
+			
 		<script>
       		// 2. This code loads the IFrame Player API code asynchronously.
       		var tag = document.createElement('script');
@@ -59,22 +63,22 @@ session_start();
       		var done = false;
       		function onPlayerStateChange(event) {
         		if (event.data == YT.PlayerState.PLAYING && !done) {
-          			setTimeout(stopVideo, 1000);
+          			setTimeout(stopVideo, 5000);
           			done = true;
         		}
       		}
       		function stopVideo() {
         	//player.stopVideo();
-        		document.getElementById('play').innerHTML = '<a ><h1><?php
-                if(isset($_SESSION["id"])){
-                    echo "Password ➣ ".md5($_SESSION["id"]);
-                    session_destroy();
-                }else{
-                    echo "SESSION EXPIRED";
-                }
-                ?></h1></a>';
+        		document.getElementById('play').innerHTML = '<a ><h1><?="Key Otomatis muncul jika menggunakan Script Ok!"?></h1></a>';
       		}
     	</script>
+    	<!-- Iklan -->
+    	<a target="_blank" href="https://autofaucet.org/r/iewilmaestro"><img src="https://autofaucet.org/public/landing/images/logo.svg" style="background-color:gray" width="468" height="60"></a>
+    	<a href="https://autofaucet.dutchycorp.space/?r=iewilmaestro"  target="_blank" ><img src="https://dutchycorp.space/banners/Final-auto/V2/Coins/A/468x60.gif" alt= "DutchyCorp : Highest Paying AutoFaucet" width="468" height="60"><br></a>
+    	<a target="_blank" href="https://autojunkie.fun/r/iewilmaestro"><img src="https://autojunkie.fun/img/logo.webp" style="background-color:black" width="468" height="60"></a>
+    	<a target="_blank" href="https://dinntoks.com/?r=2863"><img src="https://dinntoks.com/assets/images/logo.png" style="background-color:gray" width="468" height="60"><br></a>
+    	<a href="https://claimlite.club/?ref=1725" target="_blank"><img src="https://claimlite.club/promo/468x60.png" alt="CLAIMLITE COIN BEST FAUCET " border="0" /></a>
+    	<a href="https://btcwin.online/?ref=19430" target="_blank"><img src="https://btcwin.online/promo/468x60.png" alt="Follow the rules and earn More!" border="0" /></a>
     </div>
 	<div id="footer">
     	Copyright &copy; iewil
