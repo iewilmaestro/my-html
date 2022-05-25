@@ -5,6 +5,11 @@ if( isset($_POST["cari"])) {
     $list = cari($_POST["keyword"]);
 }
 
+function tanggal(){
+    date_default_timezone_set('Asia/Jakarta');
+    $timezone = getdate(time());
+    return print date('e | l | d/M/Y | H:i:s');;
+}
 ?>
 
 <!DOCTYPE html>
@@ -20,12 +25,14 @@ if( isset($_POST["cari"])) {
 		<ul>
 			<li style="color: white;font-size: 25px;font-weight: bold"><marquee direction="right">Welcome to Iewil Website</marquee>Menu &raquo;</li>
 			<li><a href="../">Dashboard</a></li>
+			<li><a href="../faucet">Faucet</a></li>
 			<li><a href="">List</a></li>
 			<li><a href="../About">About</a></li>
         </ul>
 	</div>
 	<div id="content">
 		<!--<h3>List Script</h3>-->
+		<p>Waktu Saat ini : <?=tanggal();?></p>
         <p style="font-family:verdana;color: red">------Disclaimer<br>
             Segala resiko penggunaan program ilegal bukan tanggung jawab Creator!
         </p>
@@ -35,11 +42,12 @@ if( isset($_POST["cari"])) {
         </form>
 		 <table>
             <tr bgcolor="blue" style="color:white" text-align="center">
-                <th style="width:20%">Site Name</th>
-                <th style="width:20%">Link Register</th>
-                <th style="width:20%">Link Script</th>
-                <th style="width:20%">Link Tutor</th>
-                <th style="width:20%">Status Script</th>
+                <th style="width:15%">Site Name</th>
+                <th style="width:15%">Link Register</th>
+                <th style="width:15%">Link Script</th>
+                <th style="width:15%">Link Tutor</th>
+                <th style="width:15%">Last Update</th>
+                <th style="width:15%">Status Script</th>
             </tr>
 		    <?php foreach( $list as $a => $row):
 		        $a += 1;
@@ -53,8 +61,15 @@ if( isset($_POST["cari"])) {
                 	   <?php  
                 	}else{
                 	    ?><td><a class="view" href="<?=$row["LinkVidio"];?>" target='_blank'><img src="https://1.bp.blogspot.com/-oDuGyxpEgCs/XvQmhE3ZtaI/AAAAAAAAGPI/bBjIplPrxpoAwpcfvfZhlSuFg3PPXWuLgCK4BGAsYHg/w320-h180/youtube-logo-black.png" width="20"> View</a></td>
+                	    
                 	    <?php
                 	}
+                	?><td><p style="color: white;
+                                    background-color: black;
+                                    margin: 5px;
+                                    padding: 5px;
+                                    border-radius: 20px;"><?=$row["LastUpdate"];?></p></td>
+                    <?php
                     if($row["Status"]=="online"){
                         ;?><td><p class="online">
                         <?="online";
