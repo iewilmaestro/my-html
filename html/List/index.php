@@ -33,13 +33,19 @@ function tanggal(){
 	<div id="content">
 		<!--<h3>List Script</h3>-->
 		<p>Waktu Saat ini : <?=tanggal();?></p>
-        <p style="font-family:verdana;color: red">------Disclaimer<br>
-            Segala resiko penggunaan program ilegal bukan tanggung jawab Creator!
-        </p>
+        <span style="font-family:verdana;color: red"><b>------Disclaimer</b><br>
+            Segala resiko penggunaan program ilegal<b> bukan tanggung jawab Creator</b>!
+            <br>
+            <b>New Script</b> : Tokenmix, Coinfly
+        </span>
+        
+         
+            
         <form action="" method="post">
           <input type="text" name="keyword" autofocus placeholder="Cari apa?.." autocomplete="off">
-          <button type="submit" name="cari">Cari</button>
+          <button type="submit" name="cari">Cari</button><br>
         </form>
+        
 		 <table>
             <tr bgcolor="blue" style="color:white" text-align="center">
                 <th style="width:15%">Site Name</th>
@@ -54,10 +60,10 @@ function tanggal(){
 		        if($a > 14)continue;?>
                 <tr>
                 	<td><?=$row["NamaSitus"];?></td>
-                	<td><a class="regist" href="<?=$row["LinkSitus"];?>" target='_blank'>Register Here!</a></td>
+                	<td><a class="regist" href="<?=$row["LinkSitus"];?>" target='_blank'>Register!</a></td>
                 	<td><a class="regist" href="<?=$row["LinkScript"];?>" target='_blank'><img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698392-icon-129-cloud-download-512.png" width="20"> Download</a></td>
                 	<?php if($row["LinkVidio"]=="belum"){
-                	  ?><td><a class="view"> Belom ada ya</a></td>
+                	  ?><td><a class="view"> Belom ada</a></td>
                 	   <?php  
                 	}else{
                 	    ?><td><a class="view" href="<?=$row["LinkVidio"];?>" target='_blank'><img src="https://1.bp.blogspot.com/-oDuGyxpEgCs/XvQmhE3ZtaI/AAAAAAAAGPI/bBjIplPrxpoAwpcfvfZhlSuFg3PPXWuLgCK4BGAsYHg/w320-h180/youtube-logo-black.png" width="20"> View</a></td>
