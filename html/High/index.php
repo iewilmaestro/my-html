@@ -17,8 +17,8 @@
 	</div>
 
 	<div id="content">
-	    <a href="https://litefaucet.in/Solana/?r=purna.iera@gmail.com" style="background-color:red;color:white">Claim 3000 Solana Every 1 Minutes</a>
-	    <a href="https://claimliteco.in/?r=purna.iera@gmail.com" style="background-color:blue;color:white">Claim 2500 Litecoin Every 1 Minutes</a>
+	    <a href="https://litefaucet.in/Solana/?r=purna.iera@gmail.com" style="background-color:red;color:white">Claim 5000 Solana Every 1 Minutes</a>
+	    
 	    
     </div>
 	<div id="footer">
