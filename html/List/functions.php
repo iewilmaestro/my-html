@@ -2,6 +2,12 @@
 
 $conn = mysqli_connect('localhost', 'id18222386_iewilmaestro', 'v8M>7%Eh%F6LSFH!', 'id18222386_database');
 
+function waktu(){
+    date_default_timezone_set('Asia/Jakarta');
+    $timezone = getdate(time());
+    return date('d/M/Y');;
+}
+
 function query($query) {
     global $conn;
     $result = mysqli_query($conn, $query);
@@ -17,9 +23,10 @@ function tambah($data) {
 	$linksitus = htmlspecialchars($data["LinkSitus"]);
 	$linkvidio = htmlspecialchars($data["LinkVidio"]);
 	$linkscript = htmlspecialchars($data["LinkScript"]);
+	$lastupdate = htmlspecialchars($data["LastUpdate"]);
 	$status = htmlspecialchars($data["Status"]);
 	
-	$query = "INSERT INTO `List`(`NamaSitus`, `LinkSitus`, `LinkVidio`, `LinkScript`, `Status`) VALUES ('$namasitus','$linksitus','$linkvidio','$linkscript','$status')";
+	$query = "INSERT INTO `List`(`NamaSitus`, `LinkSitus`, `LinkVidio`, `LinkScript`, `LastUpdate`, `Status`) VALUES ('$namasitus','$linksitus','$linkvidio','$linkscript','$lastupdate','$status')";
 	// echo $query;
 	mysqli_query($conn, $query);
 	return mysqli_affected_rows($conn);
@@ -41,8 +48,9 @@ function ubah($data){
 	$linksitus = htmlspecialchars($data["LinkSitus"]);
 	$linkvidio = htmlspecialchars($data["LinkVidio"]);
 	$linkscript = htmlspecialchars($data["LinkScript"]);
+	$lastupdate = htmlspecialchars($data["LastUpdate"]);
 	$status = htmlspecialchars($data["Status"]);
-	$query = "UPDATE `List` SET `id`='$id',`NamaSitus`='$namasitus',`LinkSitus`='$linksitus',`LinkVidio`='$linkvidio',`LinkScript`='$linkscript',`Status`='$status' WHERE id = '$id'";
+	$query = "UPDATE `List` SET `id`='$id',`NamaSitus`='$namasitus',`LinkSitus`='$linksitus',`LinkVidio`='$linkvidio',`LinkScript`='$linkscript',`LastUpdate`='$lastupdate',`Status`='$status' WHERE id = '$id'";
 
 	// echo $query;
 	mysqli_query($conn, $query);
