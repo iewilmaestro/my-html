@@ -11,6 +11,7 @@
 		<ul>
 			<li style="color: white;font-size: 25px;font-weight: bold"><marquee direction="right">Welcome to Iewil Website</marquee>Menu &raquo;</li>
 			<li><a href="../">Dashboard</a></li>
+			<li><a href="../faucet">Faucet</a></li>
 			<li><a href="../List">List</a></li>
 			<li><a href="">About</a></li>
 		</ul>
