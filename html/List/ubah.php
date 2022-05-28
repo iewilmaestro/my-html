@@ -52,6 +52,7 @@ if( isset($_POST["submit"])){
 				<label for="Link Script">Link Script:	</label>
 			<input type="text" name="LinkScript" id="Link Script" required value="<?= $ls["LinkScript"]; ?>">	
 			</li>
+			<input type="hidden" id="Last Update" name="LastUpdate" value="<?=waktu();?>">
 			<li>
 				<label for="Status">Status:	</label>
 			<input type="text" name="Status" id="Status" required value="<?= $ls["Status"]; ?>">	
