@@ -41,6 +41,7 @@ if( isset($_POST["cari"])) {
                 <th style="width:10%">Link Register</th>
                 <th style="width:10%">Link Script</th>
                 <th style="width:10%">Link Tutor</th>
+                <th style="width:10%">Last Update</th>
                 <th style="width:10%">Status Script</th>
             </tr>
 		    <?php foreach( $list as $row): ?>
@@ -56,6 +57,12 @@ if( isset($_POST["cari"])) {
                 	    ?><td><a class="view" href="<?=$row["LinkVidio"];?>" target='_blank'><img src="https://1.bp.blogspot.com/-oDuGyxpEgCs/XvQmhE3ZtaI/AAAAAAAAGPI/bBjIplPrxpoAwpcfvfZhlSuFg3PPXWuLgCK4BGAsYHg/w320-h180/youtube-logo-black.png" width="20"> View</a></td>
                 	    <?php
                 	}
+                	?><td><p style="color: white;
+                                    background-color: black;
+                                    margin: 5px;
+                                    padding: 5px;
+                                    border-radius: 20px;"><?=$row["LastUpdate"];?></p></td>
+                    <?php
                     if($row["Status"]=="online"){
                         ;?><td><p class="online">
                         <?="online";
