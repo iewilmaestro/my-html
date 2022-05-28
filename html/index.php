@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="hilltopads-site-verification" content="dee2366e5187bbe1dfc0cfc45144681ea90c6b4c" />
 	<title>iewil | Dashboard</title>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -11,6 +12,7 @@
 		<ul>
 			<li style="color: white;font-size: 25px;font-weight: bold"><marquee direction="right">Welcome to Iewil Website</marquee>Menu &raquo;</li>
 			<li><a href="">Dashboard</a></li>
+			<li><a href="faucet">Faucet</a></li>
 			<li><a href="List">List</a></li>
 			<li><a href="High">High Reward</a></li>
 			<li><a href="About/">About</a></li>
