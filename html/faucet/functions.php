@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 
 function Curl($u, $h = 0, $p = 0, $m = 0,$c = 0,$x = 0) {//url,header,post,proxy
 	$ch = curl_init();
@@ -66,12 +67,19 @@ function PayOut($apikey){
     $data   = [
         "api_key"   =>$apikey,
         "currency"  =>"TRX",
-        "count"     => 20
+        "count"     => 10
     ];
     return json_decode(curl($url,'',$data)[1],1);
 }
 function secret($secret,$respon){
     $url = "https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$respon;
     return json_decode(file_get_contents($url),1);
+}
+function save($data,$data_post){
+    if(!file_get_contents($data)){
+        file_put_contents($data,"[]");}
+        $json=json_decode(file_get_contents($data),1);
+        $arr=array_merge($json,$data_post);
+        file_put_contents($data,json_encode($arr,JSON_PRETTY_PRINT));
 }
 ?>
