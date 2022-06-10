@@ -1,7 +1,7 @@
 <?php
 //print_r($_SERVER);die();
 //apikey faucetpay
-$apikey = "d291f6fe75c23ce9fd6cb6c5f8bb22bed24fe72b";
+$apikey = "xxx";
 
 //secret from google recaptcha v2
 $sitekey = "6LdCCvkfAAAAAI2kXvvu36bU4aw-gNRjaNb6XBqB";
