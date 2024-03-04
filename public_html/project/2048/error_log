@@ -1,0 +1,82 @@
+[20-Apr-2023 15:23:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function curl(), 1 passed in /home/apiiewil/public_html/project/2048/index.php on line 16 and at least 2 expected in /home/apiiewil/public_html/project/2048/index.php:2
+Stack trace:
+#0 /home/apiiewil/public_html/project/2048/index.php(16): curl('https://pastebi...')
+#1 {main}
+  thrown in /home/apiiewil/public_html/project/2048/index.php on line 2
+[20-Apr-2023 15:23:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function curl(), 1 passed in /home/apiiewil/public_html/project/2048/index.php on line 17 and at least 2 expected in /home/apiiewil/public_html/project/2048/index.php:2
+Stack trace:
+#0 /home/apiiewil/public_html/project/2048/index.php(17): curl('https://pastebi...')
+#1 {main}
+  thrown in /home/apiiewil/public_html/project/2048/index.php on line 2
+[20-Apr-2023 15:24:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function curl(), 1 passed in /home/apiiewil/public_html/project/2048/index.php on line 16 and at least 2 expected in /home/apiiewil/public_html/project/2048/index.php:2
+Stack trace:
+#0 /home/apiiewil/public_html/project/2048/index.php(16): curl('https://pastebi...')
+#1 {main}
+  thrown in /home/apiiewil/public_html/project/2048/index.php on line 2
+[20-Apr-2023 15:34:19 UTC] PHP Notice:  Undefined index: lisensi in /home/apiiewil/public_html/project/2048/index.php on line 18
+[20-Apr-2023 15:34:19 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/apiiewil/public_html/project/2048/index.php on line 18
+[20-Apr-2023 15:35:53 UTC] PHP Notice:  Undefined index: lisensi in /home/apiiewil/public_html/project/2048/index.php on line 16
+[20-Apr-2023 15:35:53 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/apiiewil/public_html/project/2048/index.php on line 20
+[20-Apr-2023 15:36:52 UTC] PHP Notice:  Undefined index: lisensi in /home/apiiewil/public_html/project/2048/index.php on line 16
+[20-Apr-2023 15:38:19 UTC] PHP Notice:  Undefined index: lisensi in /home/apiiewil/public_html/project/2048/index.php on line 16
+[20-Apr-2023 15:39:22 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/apiiewil/public_html/project/2048/index.php on line 19
+[20-Apr-2023 23:24:13 Asia/Jakarta] PHP Notice:  Undefined index: user in /home/apiiewil/public_html/project/2048/index.php on line 141
+[20-Apr-2023 23:24:13 Asia/Jakarta] PHP Notice:  Undefined index: ua in /home/apiiewil/public_html/project/2048/index.php on line 142
+[20-Apr-2023 23:25:06 Asia/Jakarta] PHP Notice:  Undefined index: user in /home/apiiewil/public_html/project/2048/index.php on line 141
+[20-Apr-2023 23:25:06 Asia/Jakarta] PHP Notice:  Undefined index: ua in /home/apiiewil/public_html/project/2048/index.php on line 142
+[20-Apr-2023 23:35:31 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/apiiewil/public_html/project/2048/index.php on line 93
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Undefined index: getUser in /home/apiiewil/public_html/project/2048/index.php on line 166
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 166
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Undefined index: getUser in /home/apiiewil/public_html/project/2048/index.php on line 167
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 167
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Undefined index: getUser in /home/apiiewil/public_html/project/2048/index.php on line 168
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 168
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Undefined index: getUser in /home/apiiewil/public_html/project/2048/index.php on line 169
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 169
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Undefined index: getUser in /home/apiiewil/public_html/project/2048/index.php on line 170
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 170
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Undefined index: getUser in /home/apiiewil/public_html/project/2048/index.php on line 171
+[21-Apr-2023 00:11:42 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 171
+[21-Apr-2023 00:13:58 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:14:00 Asia/Jakarta] PHP Notice:  Undefined index: bet in /home/apiiewil/public_html/project/2048/index.php on line 96
+[21-Apr-2023 00:14:00 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 96
+[21-Apr-2023 00:14:00 Asia/Jakarta] PHP Notice:  Undefined index: bet in /home/apiiewil/public_html/project/2048/index.php on line 97
+[21-Apr-2023 00:14:00 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 97
+[21-Apr-2023 00:14:00 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:14:02 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:16:29 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:16:31 Asia/Jakarta] PHP Notice:  Undefined index: bet in /home/apiiewil/public_html/project/2048/index.php on line 96
+[21-Apr-2023 00:16:31 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 96
+[21-Apr-2023 00:16:31 Asia/Jakarta] PHP Notice:  Undefined index: bet in /home/apiiewil/public_html/project/2048/index.php on line 97
+[21-Apr-2023 00:16:31 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 97
+[21-Apr-2023 00:16:31 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:16:33 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:23:24 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:23:26 Asia/Jakarta] PHP Notice:  Undefined index: bet in /home/apiiewil/public_html/project/2048/index.php on line 96
+[21-Apr-2023 00:23:26 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 96
+[21-Apr-2023 00:23:26 Asia/Jakarta] PHP Notice:  Undefined index: bet in /home/apiiewil/public_html/project/2048/index.php on line 97
+[21-Apr-2023 00:23:26 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 97
+[21-Apr-2023 00:23:26 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:23:28 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:24:56 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:24:58 Asia/Jakarta] PHP Notice:  Undefined index: bet in /home/apiiewil/public_html/project/2048/index.php on line 97
+[21-Apr-2023 00:24:58 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 97
+[21-Apr-2023 00:24:58 Asia/Jakarta] PHP Notice:  Undefined index: bet in /home/apiiewil/public_html/project/2048/index.php on line 98
+[21-Apr-2023 00:24:58 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 98
+[21-Apr-2023 00:24:58 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:25:00 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:25:20 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:25:22 Asia/Jakarta] PHP Notice:  Undefined index: bet in /home/apiiewil/public_html/project/2048/index.php on line 97
+[21-Apr-2023 00:25:22 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 97
+[21-Apr-2023 00:25:22 Asia/Jakarta] PHP Notice:  Undefined index: bet in /home/apiiewil/public_html/project/2048/index.php on line 98
+[21-Apr-2023 00:25:22 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/2048/index.php on line 98
+[21-Apr-2023 00:25:22 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:25:24 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:28:46 Asia/Jakarta] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument in /home/apiiewil/public_html/project/2048/index.php on line 18
+[21-Apr-2023 00:30:57 Asia/Jakarta] PHP Notice:  Undefined variable: tipe in /home/apiiewil/public_html/project/2048/index.php on line 169
+[21-Apr-2023 00:31:14 Asia/Jakarta] PHP Notice:  Undefined variable: tipe in /home/apiiewil/public_html/project/2048/index.php on line 169
+[21-Apr-2023 00:31:44 Asia/Jakarta] PHP Notice:  Undefined variable: tipe in /home/apiiewil/public_html/project/2048/index.php on line 169
+[21-Apr-2023 00:32:33 Asia/Jakarta] PHP Notice:  Undefined variable: tipe in /home/apiiewil/public_html/project/2048/index.php on line 169
+[20-Apr-2023 17:43:26 UTC] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in /home/apiiewil/public_html/project/2048/index.php on line 109
+[20-Apr-2023 17:43:35 UTC] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in /home/apiiewil/public_html/project/2048/index.php on line 109
+[20-Apr-2023 17:45:23 UTC] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in /home/apiiewil/public_html/project/2048/index.php on line 109

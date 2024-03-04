@@ -1,0 +1,78 @@
+[20-Apr-2023 12:21:40 UTC] PHP Warning:  move_uploaded_file(file/20-04-2023-miftakul khasanah.jpeg): failed to open stream: No such file or directory in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 18
+[20-Apr-2023 12:21:40 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpiljsGz' to 'file/20-04-2023-miftakul khasanah.jpeg' in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 18
+[20-Apr-2023 12:29:52 UTC] PHP Notice:  Undefined index: foto in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 5
+[20-Apr-2023 12:29:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 5
+[20-Apr-2023 12:29:52 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 5
+[20-Apr-2023 12:30:10 UTC] PHP Warning:  move_uploaded_file(file/20-04-2023-miftakul khasanah.jpeg): failed to open stream: No such file or directory in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 17
+[20-Apr-2023 12:30:10 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpHAxGvU' to 'file/20-04-2023-miftakul khasanah.jpeg' in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 17
+[20-Apr-2023 12:31:23 UTC] PHP Warning:  move_uploaded_file(file/20-04-2023-WhatsApp Image 2023-04-18 at 10.21.34.jpeg): failed to open stream: No such file or directory in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 17
+[20-Apr-2023 12:31:23 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpHE6ShZ' to 'file/20-04-2023-WhatsApp Image 2023-04-18 at 10.21.34.jpeg' in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 17
+[20-Apr-2023 12:51:16 UTC] PHP Warning:  move_uploaded_file(file/20-04-2023-sriyanah.jpeg): failed to open stream: No such file or directory in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 18
+[20-Apr-2023 12:51:16 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpKSOicW' to 'file/20-04-2023-sriyanah.jpeg' in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 18
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined index: name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 8
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined index: tmp_name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 9
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Array to string conversion in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined variable: Array in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined index: name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 8
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined index: tmp_name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 9
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Array to string conversion in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined variable: Array in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined index: name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 8
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined index: tmp_name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 9
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Array to string conversion in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined variable: Array in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined index: name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 8
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined index: tmp_name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 9
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Array to string conversion in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined variable: Array in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined index: name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 8
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined index: tmp_name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 9
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Array to string conversion in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Undefined variable: Array in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:58:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined index: name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 8
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined index: tmp_name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 9
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Array to string conversion in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined variable: Array in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined index: name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 8
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined index: tmp_name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 9
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Array to string conversion in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined variable: Array in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined index: name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 8
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined index: tmp_name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 9
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Array to string conversion in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined variable: Array in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined index: name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 8
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined index: tmp_name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 9
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Array to string conversion in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined variable: Array in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined index: name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 8
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined index: tmp_name in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 9
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Array to string conversion in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Undefined variable: Array in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 12:59:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 11
+[20-Apr-2023 13:06:30 UTC] PHP Warning:  move_uploaded_file(file/20-04-2023-miftakul khasanah.jpeg): failed to open stream: No such file or directory in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 18
+[20-Apr-2023 13:06:30 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpJ8IXoO' to 'file/20-04-2023-miftakul khasanah.jpeg' in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 18
+[20-Apr-2023 13:06:30 UTC] PHP Warning:  move_uploaded_file(file/20-04-2023-WhatsApp Image 2023-04-18 at 10.21.34.jpeg): failed to open stream: No such file or directory in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 18
+[20-Apr-2023 13:06:30 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpc7sNqc' to 'file/20-04-2023-WhatsApp Image 2023-04-18 at 10.21.34.jpeg' in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 18
+[20-Apr-2023 13:06:30 UTC] PHP Warning:  move_uploaded_file(file/20-04-2023-WhatsApp Image 2023-04-17 at 10.50.44.jpeg): failed to open stream: No such file or directory in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 18
+[20-Apr-2023 13:06:30 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phprXpGsA' to 'file/20-04-2023-WhatsApp Image 2023-04-17 at 10.50.44.jpeg' in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 18
+[20-Apr-2023 13:27:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/apiiewil/public_html/project/upload_gambar/hasil.php on line 6
+[20-Apr-2023 13:27:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/apiiewil/public_html/project/upload_gambar/hasil.php on line 8
+[20-Apr-2023 13:27:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/apiiewil/public_html/project/upload_gambar/hasil.php on line 6
+[20-Apr-2023 13:27:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/apiiewil/public_html/project/upload_gambar/hasil.php on line 8
+[20-Apr-2023 13:46:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mksir() in /home/apiiewil/public_html/project/upload_gambar/proses_act.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/apiiewil/public_html/project/upload_gambar/proses_act.php on line 7
+[20-Apr-2023 13:52:41 UTC] PHP Notice:  Undefined index: nama in /home/apiiewil/public_html/project/upload_gambar/hasil.php on line 30
+[20-Apr-2023 13:52:41 UTC] PHP Notice:  Undefined index: nama in /home/apiiewil/public_html/project/upload_gambar/hasil.php on line 30
+[20-Apr-2023 13:52:41 UTC] PHP Notice:  Undefined index: nama in /home/apiiewil/public_html/project/upload_gambar/hasil.php on line 30

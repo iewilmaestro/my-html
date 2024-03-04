@@ -1,0 +1,292 @@
+:root {
+    --primary: #B0E0E6;
+    --bg: #010101;
+    --second: #c4302b;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body {
+    background-image: url('../img/logo3.png');
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    background-position: center left;
+    background-attachment: fixed;
+    background-blend-mode: screen;
+    font-family:'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: #fff;
+}
+.header {
+    background-color: rgba(1 ,1 ,1 , 0.8);
+    border-bottom: 1px solid var(--primary);
+    padding: 1.4rem 3%;
+}
+.header ul li {
+    display: inline;
+    padding: 1rem;
+}
+.header ul li .logo {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+}
+.header ul li .logo span {
+    color: var(--primary);
+}
+.header ul li a {
+    color: #fff;
+}
+.footer {
+    height: 2vh;
+    background-color: rgba(1 ,1 ,1 , 0.8);
+    border-top: 1px solid var(--primary);
+    text-align: center;
+}
+.footer ul li {
+    display: inline;
+    padding: 2px;
+}
+#social {
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin: 0 10px;
+    border: #fff solid 2px;
+}
+
+.footer .logo {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+.content {
+    min-height:100vh;
+}
+.content .dashboard {
+    padding: 1.4rem 7%;
+    max-width: 60rem;
+}
+
+.content .dashboard h1 {
+    font-size: 1.4rem 7%;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(1, 1, 3 ,0.5);
+    line-height: 1.2;
+}
+
+.content .dashboard h1 span {
+    color: var(--primary);
+}
+
+.content .dashboard p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    line-height: 1.2;
+    font-weight: 100;
+    text-shadow: 1px 1px 3px rgba(1, 1, 3 ,0.5);
+    mix-blend-mode: difference;
+}
+
+.content .dashboard .cta {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: var(--second);
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+/* Request box */
+.content .form {
+    margin: 100px auto;
+    width: 500px;
+    padding: 30px;
+    border: 1px solid var(--primary);
+    border-radius: 1rem;
+}
+.content .form h4{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.content .form ul li {
+    display: inline;
+}
+.content .form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.content .form textarea{
+    width: 100%;
+    padding: 10px;
+}
+#submit{
+    border: none;
+    background-color: var(--second);
+    color: #fff;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#submit:hover{
+    background-color: #333333;
+}
+
+/* Login */
+.content .keterangan {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.content .login {
+    margin: 100px auto;
+    width: 500px;
+    padding: 30px 20px;
+    border: 1px solid var(--primary);
+    border-radius: 1rem;
+}
+
+.content .login .form_login{
+	/*membuat lebar form penuh*/
+	width: 100%;
+	padding: 10px;
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+.content .login .tombol_login {
+    border: none;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    background-color: var(--primary);
+    border-radius: 5px;
+    position: relative;
+}
+.content .login .tombol_login:hover {
+    background-color: #00FF00;
+    color: black;
+}
+.content .login .link {
+    color: var(--second);
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.tombol {
+    border: none;
+    color: #fff;
+    padding: 3px 5px;
+    width: 200px;
+    height: 30px;
+    background-color: var(--second);
+    border-radius: 5px;
+    position: relative;
+}
+.back {
+    border: none;
+    color: black;
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* konten */
+.content .tes table {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content .tes table tr td ul li {
+    display: inline;
+}
+
+#input {
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Table */
+#list {
+    border-collapse: collapse;
+    width: 100%;
+}
+#list th {
+    background-color: var(--primary);
+    border: 1px solid #fff;
+    padding: 8px;
+    color: black;
+}
+#list td {
+    border: 1px solid #fff;
+    padding: 8px;
+    color: white;
+}
+#list td a {
+    border: none;
+    color: black;
+    width: 200px;
+    height: 10px;
+    background-color: var(--primary);
+    border-radius: 3px;
+    position: relative;
+}
+#online {
+    color: black;
+    background-color: green;
+}
+#offline {
+    color: #fff;
+    background-color: var(--second);
+}
+#kontent {
+    border-collapse: collapse;
+}
+#kontent th {
+    padding: 8px;
+    font-size: 3rem;
+}
+#kontent td {
+    border: 1px solid var(--primary);
+    padding: 8px;
+    color: #fff;
+}
+#kontent tr td ul li {
+    display: inline;
+}
+#kontent a {
+    border: none;
+    color: black;
+    width: 200px;
+    height: 30px;
+    background-color: var(--primary);
+    border-radius: 5px;
+    position: relative;
+}
+#kontent a:hover {
+    background-color: var(--second);
+    color: #fff;
+}
+/* icon dompet */
+.content .dompet {
+    padding: 1.4rem 7%;
+    max-width: 60rem;
+}
+.content .dompet img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
